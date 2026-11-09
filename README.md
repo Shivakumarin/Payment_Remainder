@@ -34,7 +34,6 @@ Only email delivery is implemented. SMS, WhatsApp, and push notification enum va
 - MySQL
 - Spring Security and BCrypt password hashing
 - Spring Validation
-- Spring Boot Mail / JavaMailSender
 - Maven
 - Lombok
 5. Project structure
