@@ -38,16 +38,16 @@ Only email delivery is implemented. SMS, WhatsApp, and push notification enum va
 - Lombok
 5. Project structure
 src/main/java/com/example/subscription/
-├── controller/       # REST API endpoints
-├── dto/              # Request objects and input validation
-├── entity/           # JPA entities and enums mapped to database tables
-├── repository/       # Database access using Spring Data JPA
-├── scheduler/        # Daily subscription-renewal reminder job
-├── security/         # Spring Security configuration
-└── service/          # Business logic, payment records, and email delivery
+ ├── controller/       # REST API endpoints
+ ├── dto/              # Request objects and input validation
+ ├── entity/           # JPA entities and enums mapped to database tables
+ ├── repository/       # Database access using Spring Data JPA
+ ├── scheduler/        # Daily subscription-renewal reminder job
+ ├── security/         # Spring Security configuration
+ └── service/          # Business logic, payment records, and email delivery
 
 src/main/resources/
-└── application.properties
+ └── application.properties
 Important classes
 Class	Responsibility
 UserController / UserService	Business-owner registration
