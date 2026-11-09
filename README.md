@@ -1,4 +1,4 @@
-**Subscription and Payment Reminder Platform**
+**Subscription and Payment Reminder Platform** :     
 **A Java 17 and Spring Boot REST API for managing business owners, customers, subscriptions, payment records, and automatic subscription-renewal email reminders. MySQL stores application data and Gmail SMTP is used for email delivery.
 1. What problem does this project solve?
 Businesses that sell monthly, quarterly, or yearly services need to know which customers have active subscriptions, when those subscriptions renew, and whether payments have been recorded. This application keeps those records in one place and sends email reminders before renewal dates.
